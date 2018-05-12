@@ -1,0 +1,51 @@
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+	<title>Form</title>
+</head>
+<body >
+
+<table width="100%" >
+<tr>
+	<td colspan="2"><img src="Assets/header.jpg" width="100%" height="400px"></td>
+</tr>
+<tr>
+	<td>
+		<ul class="nav">
+			<li><a href="">Beranda</a></li>
+			<li><a href="">Tentang kami</a></li>
+			<li><a href="">Kontak</a></li>
+		</ul>
+	</td>
+	<td>
+		<form action="http://www.example.com/login/" method="post">
+		<fieldset>
+			<legend>Info Pelanggan</legend>
+				<label>Nama: <input type="text" name="email" placeholder="Ex: Mahdi William" required="required" maxlength="16"></label><br><br>
+				<label>Telepon: <input type="telp" name="telp" placeholder="Ex: +62-800-0000-0000" required="required" maxlength="17" ></label><br><br>
+				<label>Email: <input type="email" name="email" placeholder="Ex: Maws.production@gmail.com" required="required" ></label>
+		</fieldset>
+	
+	
+			<fieldset>
+			<legend>Buku</legend>
+				<input type="text" name="produk" list="buku" placeholder="Pilih salah satu" required="required">
+				<datalist id="buku">
+					<option value="Kompilasi Azab pedas karena mencuri sendal orang">
+					<option value="Belajar Menjadi Hacker dalam 30 menit">
+				</datalist>
+				<label> Jumlah (Maksimal 5): <input type="number" name="jml_buku" min="1" max="5" required="required"></label>
+			</fieldset>
+				<br>
+				<input type="submit" value="Submit" />
+			</form>
+	</td>
+</tr>
+
+	
+</table>
+
+</body>
+</html>

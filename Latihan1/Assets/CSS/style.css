@@ -1,0 +1,30 @@
+/*
+{
+	padding: 0;
+	margin: 0;
+}*/
+
+body
+{
+	padding: 0;
+	margin: 0;	
+}
+
+.nav > li
+{	
+	list-style: none;
+	margin-top : 20px;
+}
+
+.nav > li > a
+{	
+	text-decoration: none;
+	font-family: arial;
+	color: black;
+}
+
+.nav > li > a:hover
+{
+	color: grey;
+	transition: 0.3;
+}
